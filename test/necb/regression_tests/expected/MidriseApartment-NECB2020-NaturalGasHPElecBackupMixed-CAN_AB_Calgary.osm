@@ -5961,21 +5961,21 @@ OS:EnergyManagementSystem:Actuator,
 OS:EnergyManagementSystem:Program,
   {00000000-0000-0000-0035-000000000001},  !- Handle
   ems_sys_1_mixed_shr_none_sc_ashp_sh_ashp_c_e_ssf_cv_zh_b_hw_zc_none_srf_none__OptimumStartProg0, !- Name
-  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {c0124b35-a6c8-4969-b581-4934cee7875d}<23.9 && {c0124b35-a6c8-4969-b581-4934cee7875d}>1.7, !- Program Line 1
-  SET {dd74bb44-4eb7-48af-b524-30e2e522eb0e} = 29.4, !- Program Line 2
-  SET {4b172a3d-8f1d-4d9a-8c45-c38ea9ff117a} = 15.6, !- Program Line 3
-  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {c0124b35-a6c8-4969-b581-4934cee7875d}<23.9 && {c0124b35-a6c8-4969-b581-4934cee7875d}>1.7, !- Program Line 4
-  SET {dd74bb44-4eb7-48af-b524-30e2e522eb0e} = 29.4, !- Program Line 5
-  SET {4b172a3d-8f1d-4d9a-8c45-c38ea9ff117a} = 15.6, !- Program Line 6
-  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {c0124b35-a6c8-4969-b581-4934cee7875d}<23.9 && {c0124b35-a6c8-4969-b581-4934cee7875d}>1.7, !- Program Line 7
-  SET {dd74bb44-4eb7-48af-b524-30e2e522eb0e} = 29.4, !- Program Line 8
-  SET {4b172a3d-8f1d-4d9a-8c45-c38ea9ff117a} = 15.6, !- Program Line 9
-  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {c0124b35-a6c8-4969-b581-4934cee7875d}<23.9 && {c0124b35-a6c8-4969-b581-4934cee7875d}>1.7, !- Program Line 10
-  SET {dd74bb44-4eb7-48af-b524-30e2e522eb0e} = 29.4, !- Program Line 11
-  SET {4b172a3d-8f1d-4d9a-8c45-c38ea9ff117a} = 15.6, !- Program Line 12
+  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}<23.9 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}>1.7, !- Program Line 1
+  SET {49d7a166-3080-4c32-a991-b8d16c182a9c} = 29.4, !- Program Line 2
+  SET {3d60a38f-cc73-4db1-bde1-a395a37c7b33} = 15.6, !- Program Line 3
+  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}<23.9 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}>1.7, !- Program Line 4
+  SET {49d7a166-3080-4c32-a991-b8d16c182a9c} = 29.4, !- Program Line 5
+  SET {3d60a38f-cc73-4db1-bde1-a395a37c7b33} = 15.6, !- Program Line 6
+  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}<23.9 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}>1.7, !- Program Line 7
+  SET {49d7a166-3080-4c32-a991-b8d16c182a9c} = 29.4, !- Program Line 8
+  SET {3d60a38f-cc73-4db1-bde1-a395a37c7b33} = 15.6, !- Program Line 9
+  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}<23.9 && {65066b3e-4de9-4d2b-9789-1b3f4fe0307b}>1.7, !- Program Line 10
+  SET {49d7a166-3080-4c32-a991-b8d16c182a9c} = 29.4, !- Program Line 11
+  SET {3d60a38f-cc73-4db1-bde1-a395a37c7b33} = 15.6, !- Program Line 12
   ELSE,                                    !- Program Line 13
-  SET {dd74bb44-4eb7-48af-b524-30e2e522eb0e} = NULL, !- Program Line 14
-  SET {4b172a3d-8f1d-4d9a-8c45-c38ea9ff117a} = NULL, !- Program Line 15
+  SET {49d7a166-3080-4c32-a991-b8d16c182a9c} = NULL, !- Program Line 14
+  SET {3d60a38f-cc73-4db1-bde1-a395a37c7b33} = NULL, !- Program Line 15
   ENDIF;                                   !- Program Line 16
 
 OS:EnergyManagementSystem:ProgramCallingManager,
@@ -19720,7 +19720,7 @@ OS:WaterUse:Equipment,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000001},  !- Handle
-  G n1 apartment 0.15gpm 140F,             !- Name
+  G n1 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19729,7 +19729,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000002},  !- Handle
-  G n2 apartment 0.15gpm 140F,             !- Name
+  G n2 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19738,7 +19738,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000003},  !- Handle
-  G ne apartment 0.15gpm 140F,             !- Name
+  G ne apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19747,7 +19747,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000004},  !- Handle
-  G nw apartment 0.15gpm 140F,             !- Name
+  G nw apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19756,7 +19756,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000005},  !- Handle
-  G s1 apartment 0.15gpm 140F,             !- Name
+  G s1 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19765,7 +19765,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000006},  !- Handle
-  G s2 apartment 0.15gpm 140F,             !- Name
+  G s2 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19774,7 +19774,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000007},  !- Handle
-  G sw apartment 0.15gpm 140F,             !- Name
+  G sw apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19783,7 +19783,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000008},  !- Handle
-  M n1 apartment 0.15gpm 140F,             !- Name
+  M n1 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19792,7 +19792,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000009},  !- Handle
-  M n2 apartment 0.15gpm 140F,             !- Name
+  M n2 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19801,7 +19801,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000010},  !- Handle
-  M ne apartment 0.15gpm 140F,             !- Name
+  M ne apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19810,7 +19810,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000011},  !- Handle
-  M nw apartment 0.15gpm 140F,             !- Name
+  M nw apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19819,7 +19819,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000012},  !- Handle
-  M s1 apartment 0.15gpm 140F,             !- Name
+  M s1 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19828,7 +19828,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000013},  !- Handle
-  M s2 apartment 0.15gpm 140F,             !- Name
+  M s2 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19837,7 +19837,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000014},  !- Handle
-  M se apartment 0.15gpm 140F,             !- Name
+  M se apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19846,7 +19846,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000015},  !- Handle
-  M sw apartment 0.15gpm 140F,             !- Name
+  M sw apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19855,7 +19855,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000016},  !- Handle
-  Office 0.15gpm 140F,                     !- Name
+  Office 0.1486gpm 140F,                   !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19864,7 +19864,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000017},  !- Handle
-  T n1 apartment 0.15gpm 140F,             !- Name
+  T n1 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19873,7 +19873,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000018},  !- Handle
-  T n2 apartment 0.15gpm 140F,             !- Name
+  T n2 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19882,7 +19882,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000019},  !- Handle
-  T ne apartment 0.15gpm 140F,             !- Name
+  T ne apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19891,7 +19891,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000020},  !- Handle
-  T nw apartment 0.15gpm 140F,             !- Name
+  T nw apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19900,7 +19900,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000021},  !- Handle
-  T s1 apartment 0.15gpm 140F,             !- Name
+  T s1 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19909,7 +19909,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000022},  !- Handle
-  T s2 apartment 0.15gpm 140F,             !- Name
+  T s2 apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19918,7 +19918,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000023},  !- Handle
-  T se apartment 0.15gpm 140F,             !- Name
+  T se apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name
@@ -19927,7 +19927,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0105-000000000024},  !- Handle
-  T sw apartment 0.15gpm 140F,             !- Name
+  T sw apartment 0.1486gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   9.37425007600047e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0065-000000000006},  !- Target Temperature Schedule Name

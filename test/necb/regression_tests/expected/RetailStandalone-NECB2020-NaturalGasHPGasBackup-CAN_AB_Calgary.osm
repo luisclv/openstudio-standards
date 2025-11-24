@@ -11934,7 +11934,7 @@ OS:WaterUse:Equipment,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0100-000000000001},  !- Handle
-  Core_retail 0.18gpm 140F,                !- Name
+  Core_retail 0.1796gpm 140F,              !- Name
   ,                                        !- End-Use Subcategory
   1.13340572798077e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0061-000000000006},  !- Target Temperature Schedule Name
@@ -11943,7 +11943,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0100-000000000002},  !- Handle
-  Front_retail 0.02gpm 140F,               !- Name
+  Front_retail 0.0169gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   1.06798340573823e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0061-000000000006},  !- Target Temperature Schedule Name
@@ -11952,7 +11952,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0100-000000000003},  !- Handle
-  Point_of_sale 0.02gpm 140F,              !- Name
+  Point_of_sale 0.0169gpm 140F,            !- Name
   ,                                        !- End-Use Subcategory
   1.06798340573823e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0061-000000000006},  !- Target Temperature Schedule Name

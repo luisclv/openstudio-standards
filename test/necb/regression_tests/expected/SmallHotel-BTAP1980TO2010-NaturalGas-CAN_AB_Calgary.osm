@@ -57595,7 +57595,7 @@ OS:WaterUse:Equipment,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000001},  !- Handle
-  Employeeloungeflr1 0.02gpm 140F,         !- Name
+  Employeeloungeflr1 0.0167gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   1.0530582531896e-06,                     !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57613,7 +57613,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000003},  !- Handle
-  Frontloungeflr1 0.04gpm 140F,            !- Name
+  Frontloungeflr1 0.0415gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   2.61998948626714e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57631,7 +57631,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000005},  !- Handle
-  Frontstorageflr1 0.0gpm 140F,            !- Name
+  Frontstorageflr1 0.0032gpm 140F,         !- Name
   ,                                        !- End-Use Subcategory
   2.02531359854212e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57640,7 +57640,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000006},  !- Handle
-  Frontstorageflr2 0.0gpm 140F,            !- Name
+  Frontstorageflr2 0.0032gpm 140F,         !- Name
   ,                                        !- End-Use Subcategory
   2.02531359854212e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57649,7 +57649,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000007},  !- Handle
-  Frontstorageflr3 0.0gpm 140F,            !- Name
+  Frontstorageflr3 0.0032gpm 140F,         !- Name
   ,                                        !- End-Use Subcategory
   2.02531359854212e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57658,7 +57658,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000008},  !- Handle
-  Frontstorageflr4 0.0gpm 140F,            !- Name
+  Frontstorageflr4 0.0032gpm 140F,         !- Name
   ,                                        !- End-Use Subcategory
   2.02531359854212e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57667,7 +57667,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000009},  !- Handle
-  Guestroom101 0.07gpm 140F,               !- Name
+  Guestroom101 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532055652e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57676,7 +57676,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000010},  !- Handle
-  Guestroom102 0.07gpm 140F,               !- Name
+  Guestroom102 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532055651e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57685,7 +57685,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000011},  !- Handle
-  Guestroom103 0.07gpm 140F,               !- Name
+  Guestroom103 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532055652e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57694,7 +57694,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000012},  !- Handle
-  Guestroom104 0.07gpm 140F,               !- Name
+  Guestroom104 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57703,7 +57703,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000013},  !- Handle
-  Guestroom105 0.07gpm 140F,               !- Name
+  Guestroom105 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57712,7 +57712,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000014},  !- Handle
-  Guestroom201 0.07gpm 140F,               !- Name
+  Guestroom201 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532050536e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57721,7 +57721,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000015},  !- Handle
-  Guestroom202_205 0.27gpm 140F,           !- Name
+  Guestroom202_205 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68435812820214e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57730,7 +57730,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000016},  !- Handle
-  Guestroom206_208 0.22gpm 140F,           !- Name
+  Guestroom206_208 0.2156gpm 140F,         !- Name
   ,                                        !- End-Use Subcategory
   1.36044310354788e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57739,7 +57739,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000017},  !- Handle
-  Guestroom209_212 0.27gpm 140F,           !- Name
+  Guestroom209_212 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68435812820214e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57748,7 +57748,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000018},  !- Handle
-  Guestroom213 0.07gpm 140F,               !- Name
+  Guestroom213 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532050535e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57757,7 +57757,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000019},  !- Handle
-  Guestroom214 0.07gpm 140F,               !- Name
+  Guestroom214 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57766,7 +57766,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000020},  !- Handle
-  Guestroom215_218 0.27gpm 140F,           !- Name
+  Guestroom215_218 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68423860898521e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57775,7 +57775,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000021},  !- Handle
-  Guestroom219 0.07gpm 140F,               !- Name
+  Guestroom219 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57784,7 +57784,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000022},  !- Handle
-  Guestroom220_223 0.27gpm 140F,           !- Name
+  Guestroom220_223 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68423860898521e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57793,7 +57793,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000023},  !- Handle
-  Guestroom224 0.07gpm 140F,               !- Name
+  Guestroom224 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57802,7 +57802,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000024},  !- Handle
-  Guestroom301 0.07gpm 140F,               !- Name
+  Guestroom301 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532050536e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57811,7 +57811,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000025},  !- Handle
-  Guestroom302_305 0.27gpm 140F,           !- Name
+  Guestroom302_305 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68435812820214e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57820,7 +57820,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000026},  !- Handle
-  Guestroom306_308 0.22gpm 140F,           !- Name
+  Guestroom306_308 0.2156gpm 140F,         !- Name
   ,                                        !- End-Use Subcategory
   1.36044310354788e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57829,7 +57829,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000027},  !- Handle
-  Guestroom309_312 0.27gpm 140F,           !- Name
+  Guestroom309_312 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68435812820214e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57838,7 +57838,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000028},  !- Handle
-  Guestroom313 0.07gpm 140F,               !- Name
+  Guestroom313 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532050535e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57847,7 +57847,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000029},  !- Handle
-  Guestroom314 0.07gpm 140F,               !- Name
+  Guestroom314 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57856,7 +57856,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000030},  !- Handle
-  Guestroom315_318 0.27gpm 140F,           !- Name
+  Guestroom315_318 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68423860898521e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57865,7 +57865,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000031},  !- Handle
-  Guestroom319 0.07gpm 140F,               !- Name
+  Guestroom319 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57874,7 +57874,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000032},  !- Handle
-  Guestroom320_323 0.27gpm 140F,           !- Name
+  Guestroom320_323 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68423860898521e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57883,7 +57883,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000033},  !- Handle
-  Guestroom324 0.07gpm 140F,               !- Name
+  Guestroom324 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57892,7 +57892,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000034},  !- Handle
-  Guestroom401 0.07gpm 140F,               !- Name
+  Guestroom401 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532050536e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57901,7 +57901,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000035},  !- Handle
-  Guestroom402_405 0.27gpm 140F,           !- Name
+  Guestroom402_405 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68435812820214e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57910,7 +57910,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000036},  !- Handle
-  Guestroom406_408 0.22gpm 140F,           !- Name
+  Guestroom406_408 0.2156gpm 140F,         !- Name
   ,                                        !- End-Use Subcategory
   1.36044310354788e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57919,7 +57919,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000037},  !- Handle
-  Guestroom409_412 0.27gpm 140F,           !- Name
+  Guestroom409_412 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68435812820214e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57928,7 +57928,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000038},  !- Handle
-  Guestroom413 0.07gpm 140F,               !- Name
+  Guestroom413 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21089532050535e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57937,7 +57937,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000039},  !- Handle
-  Guestroom414 0.07gpm 140F,               !- Name
+  Guestroom414 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57946,7 +57946,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000040},  !- Handle
-  Guestroom415_418 0.27gpm 140F,           !- Name
+  Guestroom415_418 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68423860898521e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57955,7 +57955,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000041},  !- Handle
-  Guestroom419 0.07gpm 140F,               !- Name
+  Guestroom419 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57964,7 +57964,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000042},  !- Handle
-  Guestroom420_423 0.27gpm 140F,           !- Name
+  Guestroom420_423 0.267gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   1.68423860898521e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57973,7 +57973,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000043},  !- Handle
-  Guestroom424 0.07gpm 140F,               !- Name
+  Guestroom424 0.0667gpm 140F,             !- Name
   ,                                        !- End-Use Subcategory
   4.21059652246303e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57982,7 +57982,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000044},  !- Handle
-  Laundryroomflr1 0.03gpm 140F,            !- Name
+  Laundryroomflr1 0.025gpm 140F,           !- Name
   ,                                        !- End-Use Subcategory
   1.57974460687614e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -57991,7 +57991,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000045},  !- Handle
-  Meetingroomflr1 0.06gpm 140F,            !- Name
+  Meetingroomflr1 0.0617gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   3.89481370151532e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -58000,7 +58000,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000046},  !- Handle
-  Rearstorageflr1 0.01gpm 140F,            !- Name
+  Rearstorageflr1 0.0051gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   3.24150787407158e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -58009,7 +58009,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000047},  !- Handle
-  Rearstorageflr2 0.01gpm 140F,            !- Name
+  Rearstorageflr2 0.0051gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   3.24150787403221e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -58018,7 +58018,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000048},  !- Handle
-  Rearstorageflr3 0.01gpm 140F,            !- Name
+  Rearstorageflr3 0.0051gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   3.24150787403221e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name
@@ -58027,7 +58027,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0107-000000000049},  !- Handle
-  Rearstorageflr4 0.01gpm 140F,            !- Name
+  Rearstorageflr4 0.0051gpm 140F,          !- Name
   ,                                        !- End-Use Subcategory
   3.24150787403221e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0069-000000000009},  !- Target Temperature Schedule Name

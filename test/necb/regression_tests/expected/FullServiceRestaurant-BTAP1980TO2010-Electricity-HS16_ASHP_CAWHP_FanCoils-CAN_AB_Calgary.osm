@@ -7531,7 +7531,7 @@ OS:WaterUse:Equipment,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0103-000000000001},  !- Handle
-  Dining 0.38gpm 140F,                     !- Name
+  Dining 0.3796gpm 140F,                   !- Name
   ,                                        !- End-Use Subcategory
   2.39515451281452e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0068-000000000006},  !- Target Temperature Schedule Name
@@ -7540,7 +7540,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0103-000000000002},  !- Handle
-  Kitchen 0.07gpm 140F,                    !- Name
+  Kitchen 0.0713gpm 140F,                  !- Name
   ,                                        !- End-Use Subcategory
   4.49574007408925e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0068-000000000006},  !- Target Temperature Schedule Name

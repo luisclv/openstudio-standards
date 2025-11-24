@@ -8015,61 +8015,61 @@ OS:EnergyManagementSystem:Actuator,
 OS:EnergyManagementSystem:Program,
   {00000000-0000-0000-0039-000000000001},  !- Handle
   ems_sys_6_mixed_shr_none_sh_c_hw_sc_c_chw_ssf_vv_zh_b_hw_zc_none_srf_vv__1_OptimumStartProg0, !- Name
-  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}<23.9 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}>1.7, !- Program Line 1
-  SET {ca047435-24c5-45ce-87c9-827b2e6ef42d} = 29.4, !- Program Line 2
-  SET {813bd6d8-550c-49d1-b534-9c996943fe9e} = 15.6, !- Program Line 3
-  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}<23.9 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}>1.7, !- Program Line 4
-  SET {ca047435-24c5-45ce-87c9-827b2e6ef42d} = 29.4, !- Program Line 5
-  SET {813bd6d8-550c-49d1-b534-9c996943fe9e} = 15.6, !- Program Line 6
-  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}<23.9 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}>1.7, !- Program Line 7
-  SET {ca047435-24c5-45ce-87c9-827b2e6ef42d} = 29.4, !- Program Line 8
-  SET {813bd6d8-550c-49d1-b534-9c996943fe9e} = 15.6, !- Program Line 9
-  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}<23.9 && {77c92e70-ee4e-4869-af51-f8ca3a7248f7}>1.7, !- Program Line 10
-  SET {ca047435-24c5-45ce-87c9-827b2e6ef42d} = 29.4, !- Program Line 11
-  SET {813bd6d8-550c-49d1-b534-9c996943fe9e} = 15.6, !- Program Line 12
+  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}<23.9 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}>1.7, !- Program Line 1
+  SET {15089acb-d3b9-49bb-b90b-4e593ab889e3} = 29.4, !- Program Line 2
+  SET {ada347b9-88ea-4ce6-b765-719ef618a8b8} = 15.6, !- Program Line 3
+  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}<23.9 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}>1.7, !- Program Line 4
+  SET {15089acb-d3b9-49bb-b90b-4e593ab889e3} = 29.4, !- Program Line 5
+  SET {ada347b9-88ea-4ce6-b765-719ef618a8b8} = 15.6, !- Program Line 6
+  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}<23.9 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}>1.7, !- Program Line 7
+  SET {15089acb-d3b9-49bb-b90b-4e593ab889e3} = 29.4, !- Program Line 8
+  SET {ada347b9-88ea-4ce6-b765-719ef618a8b8} = 15.6, !- Program Line 9
+  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}<23.9 && {33d4e050-a1d7-4c2e-8108-137cb2f0fedf}>1.7, !- Program Line 10
+  SET {15089acb-d3b9-49bb-b90b-4e593ab889e3} = 29.4, !- Program Line 11
+  SET {ada347b9-88ea-4ce6-b765-719ef618a8b8} = 15.6, !- Program Line 12
   ELSE,                                    !- Program Line 13
-  SET {ca047435-24c5-45ce-87c9-827b2e6ef42d} = NULL, !- Program Line 14
-  SET {813bd6d8-550c-49d1-b534-9c996943fe9e} = NULL, !- Program Line 15
+  SET {15089acb-d3b9-49bb-b90b-4e593ab889e3} = NULL, !- Program Line 14
+  SET {ada347b9-88ea-4ce6-b765-719ef618a8b8} = NULL, !- Program Line 15
   ENDIF;                                   !- Program Line 16
 
 OS:EnergyManagementSystem:Program,
   {00000000-0000-0000-0039-000000000002},  !- Handle
   ems_sys_6_mixed_shr_none_sh_c_hw_sc_c_chw_ssf_vv_zh_b_hw_zc_none_srf_vv__2_OptimumStartProg0, !- Name
-  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {400d36f5-391b-456f-8eff-a2d022bedf35}<23.9 && {400d36f5-391b-456f-8eff-a2d022bedf35}>1.7, !- Program Line 1
-  SET {646140ac-64c9-4fb5-8d84-43bda11a7d3a} = 29.4, !- Program Line 2
-  SET {f5f97d15-dc7b-4e45-b8e7-dd869b63cdf0} = 15.6, !- Program Line 3
-  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {400d36f5-391b-456f-8eff-a2d022bedf35}<23.9 && {400d36f5-391b-456f-8eff-a2d022bedf35}>1.7, !- Program Line 4
-  SET {646140ac-64c9-4fb5-8d84-43bda11a7d3a} = 29.4, !- Program Line 5
-  SET {f5f97d15-dc7b-4e45-b8e7-dd869b63cdf0} = 15.6, !- Program Line 6
-  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {400d36f5-391b-456f-8eff-a2d022bedf35}<23.9 && {400d36f5-391b-456f-8eff-a2d022bedf35}>1.7, !- Program Line 7
-  SET {646140ac-64c9-4fb5-8d84-43bda11a7d3a} = 29.4, !- Program Line 8
-  SET {f5f97d15-dc7b-4e45-b8e7-dd869b63cdf0} = 15.6, !- Program Line 9
-  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {400d36f5-391b-456f-8eff-a2d022bedf35}<23.9 && {400d36f5-391b-456f-8eff-a2d022bedf35}>1.7, !- Program Line 10
-  SET {646140ac-64c9-4fb5-8d84-43bda11a7d3a} = 29.4, !- Program Line 11
-  SET {f5f97d15-dc7b-4e45-b8e7-dd869b63cdf0} = 15.6, !- Program Line 12
+  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}<23.9 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}>1.7, !- Program Line 1
+  SET {a4a54bbf-e446-40a4-a1f0-78a592b7df2e} = 29.4, !- Program Line 2
+  SET {ad231eda-506d-488a-a33f-9e2c63e735e7} = 15.6, !- Program Line 3
+  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}<23.9 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}>1.7, !- Program Line 4
+  SET {a4a54bbf-e446-40a4-a1f0-78a592b7df2e} = 29.4, !- Program Line 5
+  SET {ad231eda-506d-488a-a33f-9e2c63e735e7} = 15.6, !- Program Line 6
+  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}<23.9 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}>1.7, !- Program Line 7
+  SET {a4a54bbf-e446-40a4-a1f0-78a592b7df2e} = 29.4, !- Program Line 8
+  SET {ad231eda-506d-488a-a33f-9e2c63e735e7} = 15.6, !- Program Line 9
+  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}<23.9 && {e96b8c00-1e53-4998-b7dd-8b92e9d6c0b1}>1.7, !- Program Line 10
+  SET {a4a54bbf-e446-40a4-a1f0-78a592b7df2e} = 29.4, !- Program Line 11
+  SET {ad231eda-506d-488a-a33f-9e2c63e735e7} = 15.6, !- Program Line 12
   ELSE,                                    !- Program Line 13
-  SET {646140ac-64c9-4fb5-8d84-43bda11a7d3a} = NULL, !- Program Line 14
-  SET {f5f97d15-dc7b-4e45-b8e7-dd869b63cdf0} = NULL, !- Program Line 15
+  SET {a4a54bbf-e446-40a4-a1f0-78a592b7df2e} = NULL, !- Program Line 14
+  SET {ad231eda-506d-488a-a33f-9e2c63e735e7} = NULL, !- Program Line 15
   ENDIF;                                   !- Program Line 16
 
 OS:EnergyManagementSystem:Program,
   {00000000-0000-0000-0039-000000000003},  !- Handle
   ems_sys_6_mixed_shr_none_sh_c_hw_sc_c_chw_ssf_vv_zh_b_hw_zc_none_srf_vv__3_OptimumStartProg0, !- Name
-  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}<23.9 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}>1.7, !- Program Line 1
-  SET {3849cd96-0aca-4b54-bddb-2f730f90644f} = 29.4, !- Program Line 2
-  SET {18077c00-ecb4-4091-aac8-08fb45b5abd8} = 15.6, !- Program Line 3
-  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}<23.9 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}>1.7, !- Program Line 4
-  SET {3849cd96-0aca-4b54-bddb-2f730f90644f} = 29.4, !- Program Line 5
-  SET {18077c00-ecb4-4091-aac8-08fb45b5abd8} = 15.6, !- Program Line 6
-  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}<23.9 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}>1.7, !- Program Line 7
-  SET {3849cd96-0aca-4b54-bddb-2f730f90644f} = 29.4, !- Program Line 8
-  SET {18077c00-ecb4-4091-aac8-08fb45b5abd8} = 15.6, !- Program Line 9
-  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}<23.9 && {07703391-ce18-44b2-a5c9-1ebf5c5c7194}>1.7, !- Program Line 10
-  SET {3849cd96-0aca-4b54-bddb-2f730f90644f} = 29.4, !- Program Line 11
-  SET {18077c00-ecb4-4091-aac8-08fb45b5abd8} = 15.6, !- Program Line 12
+  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}<23.9 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}>1.7, !- Program Line 1
+  SET {138ca9c2-d87d-485a-82d3-1e87a2578e5a} = 29.4, !- Program Line 2
+  SET {e33ae37a-11b3-4be3-8ae8-c85a5e0fc1c7} = 15.6, !- Program Line 3
+  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}<23.9 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}>1.7, !- Program Line 4
+  SET {138ca9c2-d87d-485a-82d3-1e87a2578e5a} = 29.4, !- Program Line 5
+  SET {e33ae37a-11b3-4be3-8ae8-c85a5e0fc1c7} = 15.6, !- Program Line 6
+  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}<23.9 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}>1.7, !- Program Line 7
+  SET {138ca9c2-d87d-485a-82d3-1e87a2578e5a} = 29.4, !- Program Line 8
+  SET {e33ae37a-11b3-4be3-8ae8-c85a5e0fc1c7} = 15.6, !- Program Line 9
+  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}<23.9 && {d831e35c-e7ce-4aaa-b77a-69dee20a91f5}>1.7, !- Program Line 10
+  SET {138ca9c2-d87d-485a-82d3-1e87a2578e5a} = 29.4, !- Program Line 11
+  SET {e33ae37a-11b3-4be3-8ae8-c85a5e0fc1c7} = 15.6, !- Program Line 12
   ELSE,                                    !- Program Line 13
-  SET {3849cd96-0aca-4b54-bddb-2f730f90644f} = NULL, !- Program Line 14
-  SET {18077c00-ecb4-4091-aac8-08fb45b5abd8} = NULL, !- Program Line 15
+  SET {138ca9c2-d87d-485a-82d3-1e87a2578e5a} = NULL, !- Program Line 14
+  SET {e33ae37a-11b3-4be3-8ae8-c85a5e0fc1c7} = NULL, !- Program Line 15
   ENDIF;                                   !- Program Line 16
 
 OS:EnergyManagementSystem:ProgramCallingManager,
@@ -12406,7 +12406,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0064-000000000045},  !- Handle
   Schedule Day 4,                          !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -12484,7 +12484,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0064-000000000046},  !- Handle
   Schedule Day 5,                          !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   24,                                      !- Hour 1
   0,                                       !- Minute 1
@@ -12493,7 +12493,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0064-000000000047},  !- Handle
   Schedule Day 6,                          !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   24,                                      !- Hour 1
   0,                                       !- Minute 1
@@ -12712,7 +12712,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0064-000000000056},  !- Handle
   satCW Temp 1,                            !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -13024,7 +13024,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0064-000000000060},  !- Handle
   sunCW Temp 1,                            !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -13501,7 +13501,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0064-000000000079},  !- Handle
   wkdCW Temp 1,                            !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -14334,7 +14334,7 @@ OS:Schedule:Ruleset,
 OS:Schedule:Ruleset,
   {00000000-0000-0000-0066-000000000003},  !- Handle
   CW Temp,                                 !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   {00000000-0000-0000-0064-000000000045};  !- Default Day Schedule Name
 
 OS:Schedule:Ruleset,
@@ -14414,13 +14414,13 @@ OS:Schedule:Ruleset,
 OS:Schedule:Ruleset,
   {00000000-0000-0000-0066-000000000016},  !- Handle
   Schedule Ruleset 1,                      !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   {00000000-0000-0000-0064-000000000046};  !- Default Day Schedule Name
 
 OS:Schedule:Ruleset,
   {00000000-0000-0000-0066-000000000017},  !- Handle
   Schedule Ruleset 2,                      !- Name
-  {00000000-0000-0000-0067-000000000006},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0067-000000000007},  !- Schedule Type Limits Name
   {00000000-0000-0000-0064-000000000047};  !- Default Day Schedule Name
 
 OS:Schedule:Ruleset,
@@ -21485,7 +21485,7 @@ OS:WaterUse:Equipment,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000001},  !- Handle
-  Core_bottom 0.96gpm 140F,                !- Name
+  Core_bottom 0.9577gpm 140F,              !- Name
   ,                                        !- End-Use Subcategory
   6.04230454844956e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21494,7 +21494,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000002},  !- Handle
-  Core_mid 0.96gpm 140F,                   !- Name
+  Core_mid 0.9577gpm 140F,                 !- Name
   ,                                        !- End-Use Subcategory
   6.04230454844956e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21503,7 +21503,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000003},  !- Handle
-  Core_top 0.96gpm 140F,                   !- Name
+  Core_top 0.9577gpm 140F,                 !- Name
   ,                                        !- End-Use Subcategory
   6.04230454844956e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21512,7 +21512,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000004},  !- Handle
-  Datacenter_basement_zn_6 0.3gpm 140F,    !- Name
+  Datacenter_basement_zn_6 0.3007gpm 140F, !- Name
   ,                                        !- End-Use Subcategory
   1.89703570440437e-05,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21521,7 +21521,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000005},  !- Handle
-  Datacenter_bot_zn_6 0.01gpm 140F,        !- Name
+  Datacenter_bot_zn_6 0.0139gpm 140F,      !- Name
   ,                                        !- End-Use Subcategory
   8.76351905755489e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21530,7 +21530,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000006},  !- Handle
-  Datacenter_mid_zn_6 0.01gpm 140F,        !- Name
+  Datacenter_mid_zn_6 0.0139gpm 140F,      !- Name
   ,                                        !- End-Use Subcategory
   8.76351905755488e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21539,7 +21539,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000007},  !- Handle
-  Datacenter_top_zn_6 0.01gpm 140F,        !- Name
+  Datacenter_top_zn_6 0.0139gpm 140F,      !- Name
   ,                                        !- End-Use Subcategory
   8.76351905755488e-07,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21548,7 +21548,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000008},  !- Handle
-  Perimeter_bot_zn_1 0.12gpm 140F,         !- Name
+  Perimeter_bot_zn_1 0.1203gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   7.58688229162649e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21557,7 +21557,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000009},  !- Handle
-  Perimeter_bot_zn_2 0.08gpm 140F,         !- Name
+  Perimeter_bot_zn_2 0.0775gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   4.88916854503705e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21566,7 +21566,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000010},  !- Handle
-  Perimeter_bot_zn_3 0.12gpm 140F,         !- Name
+  Perimeter_bot_zn_3 0.1203gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   7.58671639286213e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21575,7 +21575,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000011},  !- Handle
-  Perimeter_bot_zn_4 0.08gpm 140F,         !- Name
+  Perimeter_bot_zn_4 0.0775gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   4.88916854503705e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21584,7 +21584,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000012},  !- Handle
-  Perimeter_mid_zn_1 0.12gpm 140F,         !- Name
+  Perimeter_mid_zn_1 0.1203gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   7.58688229162649e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21593,7 +21593,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000013},  !- Handle
-  Perimeter_mid_zn_2 0.08gpm 140F,         !- Name
+  Perimeter_mid_zn_2 0.0775gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   4.88916854503705e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21602,7 +21602,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000014},  !- Handle
-  Perimeter_mid_zn_3 0.12gpm 140F,         !- Name
+  Perimeter_mid_zn_3 0.1203gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   7.58671639286213e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21611,7 +21611,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000015},  !- Handle
-  Perimeter_mid_zn_4 0.08gpm 140F,         !- Name
+  Perimeter_mid_zn_4 0.0775gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   4.88916854503705e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21620,7 +21620,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000016},  !- Handle
-  Perimeter_top_zn_1 0.12gpm 140F,         !- Name
+  Perimeter_top_zn_1 0.1203gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   7.58688229162649e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21629,7 +21629,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000017},  !- Handle
-  Perimeter_top_zn_2 0.08gpm 140F,         !- Name
+  Perimeter_top_zn_2 0.0775gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   4.88916854503705e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21638,7 +21638,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000018},  !- Handle
-  Perimeter_top_zn_3 0.12gpm 140F,         !- Name
+  Perimeter_top_zn_3 0.1203gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   7.58671639286213e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
@@ -21647,7 +21647,7 @@ OS:WaterUse:Equipment:Definition,
 
 OS:WaterUse:Equipment:Definition,
   {00000000-0000-0000-0102-000000000019},  !- Handle
-  Perimeter_top_zn_4 0.08gpm 140F,         !- Name
+  Perimeter_top_zn_4 0.0775gpm 140F,       !- Name
   ,                                        !- End-Use Subcategory
   4.88916854503705e-06,                    !- Peak Flow Rate {m3/s}
   {00000000-0000-0000-0066-000000000008},  !- Target Temperature Schedule Name
