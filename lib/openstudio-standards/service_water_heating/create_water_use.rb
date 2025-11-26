@@ -71,11 +71,11 @@ module OpenstudioStandards
 
       # add to the space if provided
       if space.nil?
-        water_fixture.setName("#{name} Service Water Use #{flow_rate_gpm.round(2)}gpm #{water_use_temperature_f.round}F")
-        swh_connection.setName("#{name} WUC #{flow_rate_gpm.round(2)}gpm #{water_use_temperature_f.round}F")
+        water_fixture.setName("#{name} Service Water Use #{flow_rate_gpm.round(4)}gpm #{water_use_temperature_f.round}F")
+        swh_connection.setName("#{name} WUC #{flow_rate_gpm.round(4)}gpm #{water_use_temperature_f.round}F")
       else
-        water_fixture.setName("#{space.name} Service Water Use #{flow_rate_gpm.round(2)}gpm #{water_use_temperature_f.round}F")
-        swh_connection.setName("#{space.name} WUC #{flow_rate_gpm.round(2)}gpm #{water_use_temperature_f.round}F")
+        water_fixture.setName("#{space.name} Service Water Use #{flow_rate_gpm.round(4)}gpm #{water_use_temperature_f.round}F")
+        swh_connection.setName("#{space.name} WUC #{flow_rate_gpm.round(4)}gpm #{water_use_temperature_f.round}F")
         water_fixture.setSpace(space)
       end
 
