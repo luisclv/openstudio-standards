@@ -5841,61 +5841,61 @@ OS:EnergyManagementSystem:Actuator,
 OS:EnergyManagementSystem:Program,
   {00000000-0000-0000-0036-000000000001},  !- Handle
   ems_sys_6_mixed_shr_none_sh_c_e_sc_c_chw_ssf_vv_zh_b_e_zc_none_srf_vv__1_OptimumStartProg0, !- Name
-  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}<23.9 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}>1.7, !- Program Line 1
-  SET {de7a2a50-c155-410b-9ecf-4ceb62e1bf98} = 29.4, !- Program Line 2
-  SET {862fa83e-81c2-4bad-88d7-19d9f27c4797} = 15.6, !- Program Line 3
-  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}<23.9 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}>1.7, !- Program Line 4
-  SET {de7a2a50-c155-410b-9ecf-4ceb62e1bf98} = 29.4, !- Program Line 5
-  SET {862fa83e-81c2-4bad-88d7-19d9f27c4797} = 15.6, !- Program Line 6
-  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}<23.9 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}>1.7, !- Program Line 7
-  SET {de7a2a50-c155-410b-9ecf-4ceb62e1bf98} = 29.4, !- Program Line 8
-  SET {862fa83e-81c2-4bad-88d7-19d9f27c4797} = 15.6, !- Program Line 9
-  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}<23.9 && {bc5e8c54-53da-4f5e-829e-93055eb83f9a}>1.7, !- Program Line 10
-  SET {de7a2a50-c155-410b-9ecf-4ceb62e1bf98} = 29.4, !- Program Line 11
-  SET {862fa83e-81c2-4bad-88d7-19d9f27c4797} = 15.6, !- Program Line 12
+  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {c1723634-c51d-4023-ab45-ca1a334fef88}<23.9 && {c1723634-c51d-4023-ab45-ca1a334fef88}>1.7, !- Program Line 1
+  SET {bb12bb8d-acd6-413c-b1df-82fda08f0a12} = 29.4, !- Program Line 2
+  SET {ae47a369-b602-49b1-8235-a88a5de5f250} = 15.6, !- Program Line 3
+  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {c1723634-c51d-4023-ab45-ca1a334fef88}<23.9 && {c1723634-c51d-4023-ab45-ca1a334fef88}>1.7, !- Program Line 4
+  SET {bb12bb8d-acd6-413c-b1df-82fda08f0a12} = 29.4, !- Program Line 5
+  SET {ae47a369-b602-49b1-8235-a88a5de5f250} = 15.6, !- Program Line 6
+  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {c1723634-c51d-4023-ab45-ca1a334fef88}<23.9 && {c1723634-c51d-4023-ab45-ca1a334fef88}>1.7, !- Program Line 7
+  SET {bb12bb8d-acd6-413c-b1df-82fda08f0a12} = 29.4, !- Program Line 8
+  SET {ae47a369-b602-49b1-8235-a88a5de5f250} = 15.6, !- Program Line 9
+  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {c1723634-c51d-4023-ab45-ca1a334fef88}<23.9 && {c1723634-c51d-4023-ab45-ca1a334fef88}>1.7, !- Program Line 10
+  SET {bb12bb8d-acd6-413c-b1df-82fda08f0a12} = 29.4, !- Program Line 11
+  SET {ae47a369-b602-49b1-8235-a88a5de5f250} = 15.6, !- Program Line 12
   ELSE,                                    !- Program Line 13
-  SET {de7a2a50-c155-410b-9ecf-4ceb62e1bf98} = NULL, !- Program Line 14
-  SET {862fa83e-81c2-4bad-88d7-19d9f27c4797} = NULL, !- Program Line 15
+  SET {bb12bb8d-acd6-413c-b1df-82fda08f0a12} = NULL, !- Program Line 14
+  SET {ae47a369-b602-49b1-8235-a88a5de5f250} = NULL, !- Program Line 15
   ENDIF;                                   !- Program Line 16
 
 OS:EnergyManagementSystem:Program,
   {00000000-0000-0000-0036-000000000002},  !- Handle
   ems_sys_6_mixed_shr_none_sh_c_e_sc_c_chw_ssf_vv_zh_b_e_zc_none_srf_vv__2_OptimumStartProg0, !- Name
-  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {73309f93-e2c9-455d-83eb-cf2944c72e58}<23.9 && {73309f93-e2c9-455d-83eb-cf2944c72e58}>1.7, !- Program Line 1
-  SET {c1c62205-0ed4-493b-aa87-a5e7cd25ddef} = 29.4, !- Program Line 2
-  SET {fae305b6-fd7d-4338-9136-9fb09ad39330} = 15.6, !- Program Line 3
-  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {73309f93-e2c9-455d-83eb-cf2944c72e58}<23.9 && {73309f93-e2c9-455d-83eb-cf2944c72e58}>1.7, !- Program Line 4
-  SET {c1c62205-0ed4-493b-aa87-a5e7cd25ddef} = 29.4, !- Program Line 5
-  SET {fae305b6-fd7d-4338-9136-9fb09ad39330} = 15.6, !- Program Line 6
-  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {73309f93-e2c9-455d-83eb-cf2944c72e58}<23.9 && {73309f93-e2c9-455d-83eb-cf2944c72e58}>1.7, !- Program Line 7
-  SET {c1c62205-0ed4-493b-aa87-a5e7cd25ddef} = 29.4, !- Program Line 8
-  SET {fae305b6-fd7d-4338-9136-9fb09ad39330} = 15.6, !- Program Line 9
-  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {73309f93-e2c9-455d-83eb-cf2944c72e58}<23.9 && {73309f93-e2c9-455d-83eb-cf2944c72e58}>1.7, !- Program Line 10
-  SET {c1c62205-0ed4-493b-aa87-a5e7cd25ddef} = 29.4, !- Program Line 11
-  SET {fae305b6-fd7d-4338-9136-9fb09ad39330} = 15.6, !- Program Line 12
+  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}<23.9 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}>1.7, !- Program Line 1
+  SET {df2006a7-a51b-4a60-80f5-de3414f617e6} = 29.4, !- Program Line 2
+  SET {a3e9dcf5-9fa9-4026-850b-7da8dd8a6378} = 15.6, !- Program Line 3
+  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}<23.9 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}>1.7, !- Program Line 4
+  SET {df2006a7-a51b-4a60-80f5-de3414f617e6} = 29.4, !- Program Line 5
+  SET {a3e9dcf5-9fa9-4026-850b-7da8dd8a6378} = 15.6, !- Program Line 6
+  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}<23.9 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}>1.7, !- Program Line 7
+  SET {df2006a7-a51b-4a60-80f5-de3414f617e6} = 29.4, !- Program Line 8
+  SET {a3e9dcf5-9fa9-4026-850b-7da8dd8a6378} = 15.6, !- Program Line 9
+  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}<23.9 && {2fdb806d-ca59-4388-99b5-68607f36f7ee}>1.7, !- Program Line 10
+  SET {df2006a7-a51b-4a60-80f5-de3414f617e6} = 29.4, !- Program Line 11
+  SET {a3e9dcf5-9fa9-4026-850b-7da8dd8a6378} = 15.6, !- Program Line 12
   ELSE,                                    !- Program Line 13
-  SET {c1c62205-0ed4-493b-aa87-a5e7cd25ddef} = NULL, !- Program Line 14
-  SET {fae305b6-fd7d-4338-9136-9fb09ad39330} = NULL, !- Program Line 15
+  SET {df2006a7-a51b-4a60-80f5-de3414f617e6} = NULL, !- Program Line 14
+  SET {a3e9dcf5-9fa9-4026-850b-7da8dd8a6378} = NULL, !- Program Line 15
   ENDIF;                                   !- Program Line 16
 
 OS:EnergyManagementSystem:Program,
   {00000000-0000-0000-0036-000000000003},  !- Handle
   ems_sys_6_mixed_shr_none_sh_c_e_sc_c_chw_ssf_vv_zh_b_e_zc_none_srf_vv__3_OptimumStartProg0, !- Name
-  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}<23.9 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}>1.7, !- Program Line 1
-  SET {40a25e17-0758-47cd-9c35-817c16f33081} = 29.4, !- Program Line 2
-  SET {b79d55e7-76b5-4c65-8b3b-0da6333ee96e} = 15.6, !- Program Line 3
-  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}<23.9 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}>1.7, !- Program Line 4
-  SET {40a25e17-0758-47cd-9c35-817c16f33081} = 29.4, !- Program Line 5
-  SET {b79d55e7-76b5-4c65-8b3b-0da6333ee96e} = 15.6, !- Program Line 6
-  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}<23.9 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}>1.7, !- Program Line 7
-  SET {40a25e17-0758-47cd-9c35-817c16f33081} = 29.4, !- Program Line 8
-  SET {b79d55e7-76b5-4c65-8b3b-0da6333ee96e} = 15.6, !- Program Line 9
-  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}<23.9 && {c144b3de-4833-4523-944c-2ef9f27aeb4a}>1.7, !- Program Line 10
-  SET {40a25e17-0758-47cd-9c35-817c16f33081} = 29.4, !- Program Line 11
-  SET {b79d55e7-76b5-4c65-8b3b-0da6333ee96e} = 15.6, !- Program Line 12
+  IF DaylightSavings==0 && DayOfWeek>1 && Hour==5 && {7554bf84-e28d-423f-b5be-45af585652d3}<23.9 && {7554bf84-e28d-423f-b5be-45af585652d3}>1.7, !- Program Line 1
+  SET {96d59a3f-886d-4182-b378-39b99a48ecf8} = 29.4, !- Program Line 2
+  SET {b72a2205-8aab-4037-8207-13d48bc0c299} = 15.6, !- Program Line 3
+  ELSEIF DaylightSavings==0 && DayOfWeek==1 && Hour==7 && {7554bf84-e28d-423f-b5be-45af585652d3}<23.9 && {7554bf84-e28d-423f-b5be-45af585652d3}>1.7, !- Program Line 4
+  SET {96d59a3f-886d-4182-b378-39b99a48ecf8} = 29.4, !- Program Line 5
+  SET {b72a2205-8aab-4037-8207-13d48bc0c299} = 15.6, !- Program Line 6
+  ELSEIF DaylightSavings==1 && DayOfWeek>1 && Hour==4 && {7554bf84-e28d-423f-b5be-45af585652d3}<23.9 && {7554bf84-e28d-423f-b5be-45af585652d3}>1.7, !- Program Line 7
+  SET {96d59a3f-886d-4182-b378-39b99a48ecf8} = 29.4, !- Program Line 8
+  SET {b72a2205-8aab-4037-8207-13d48bc0c299} = 15.6, !- Program Line 9
+  ELSEIF DaylightSavings==1 && DayOfWeek==1 && Hour==6 && {7554bf84-e28d-423f-b5be-45af585652d3}<23.9 && {7554bf84-e28d-423f-b5be-45af585652d3}>1.7, !- Program Line 10
+  SET {96d59a3f-886d-4182-b378-39b99a48ecf8} = 29.4, !- Program Line 11
+  SET {b72a2205-8aab-4037-8207-13d48bc0c299} = 15.6, !- Program Line 12
   ELSE,                                    !- Program Line 13
-  SET {40a25e17-0758-47cd-9c35-817c16f33081} = NULL, !- Program Line 14
-  SET {b79d55e7-76b5-4c65-8b3b-0da6333ee96e} = NULL, !- Program Line 15
+  SET {96d59a3f-886d-4182-b378-39b99a48ecf8} = NULL, !- Program Line 14
+  SET {b72a2205-8aab-4037-8207-13d48bc0c299} = NULL, !- Program Line 15
   ENDIF;                                   !- Program Line 16
 
 OS:EnergyManagementSystem:ProgramCallingManager,
@@ -6796,22 +6796,22 @@ OS:ModelObjectList,
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000021},  !- Handle
   Table Lookup 1 Independent Variable List 20, !- Name
-  {00000000-0000-0000-0090-000000000008};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000012};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000022},  !- Handle
   Table Lookup 1 Independent Variable List 21, !- Name
-  {00000000-0000-0000-0090-000000000006};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000010};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000023},  !- Handle
   Table Lookup 1 Independent Variable List 22, !- Name
-  {00000000-0000-0000-0090-000000000007};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000011};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000024},  !- Handle
   Table Lookup 1 Independent Variable List 23, !- Name
-  {00000000-0000-0000-0090-000000000005};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000009};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000025},  !- Handle
@@ -6836,22 +6836,22 @@ OS:ModelObjectList,
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000029},  !- Handle
   Table Lookup 1 Independent Variable List 28, !- Name
-  {00000000-0000-0000-0090-000000000012};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000008};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000030},  !- Handle
   Table Lookup 1 Independent Variable List 29, !- Name
-  {00000000-0000-0000-0090-000000000010};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000006};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000031},  !- Handle
   Table Lookup 1 Independent Variable List 30, !- Name
-  {00000000-0000-0000-0090-000000000011};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000007};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000032},  !- Handle
   Table Lookup 1 Independent Variable List 31, !- Name
-  {00000000-0000-0000-0090-000000000009};  !- Model Object 1
+  {00000000-0000-0000-0090-000000000005};  !- Model Object 1
 
 OS:ModelObjectList,
   {00000000-0000-0000-0049-000000000033},  !- Handle
@@ -7561,85 +7561,85 @@ OS:Node,
 
 OS:Node,
   {00000000-0000-0000-0050-000000000112},  !- Handle
-  Core_bottom WUC 0.95gpm 140F Inlet Water Node, !- Name
+  Core_bottom WUC 0.9456gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000339},  !- Inlet Port
   {00000000-0000-0000-0017-000000000340};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000113},  !- Handle
-  Core_bottom WUC 0.95gpm 140F Outlet Water Node, !- Name
+  Core_bottom WUC 0.9456gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000341},  !- Inlet Port
   {00000000-0000-0000-0017-000000000342};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000114},  !- Handle
-  Core_mid WUC 0.95gpm 140F Inlet Water Node, !- Name
+  Core_mid WUC 0.9456gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000343},  !- Inlet Port
   {00000000-0000-0000-0017-000000000344};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000115},  !- Handle
-  Core_mid WUC 0.95gpm 140F Outlet Water Node, !- Name
+  Core_mid WUC 0.9456gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000345},  !- Inlet Port
   {00000000-0000-0000-0017-000000000346};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000116},  !- Handle
-  Core_top WUC 0.95gpm 140F Inlet Water Node, !- Name
+  Core_top WUC 0.9456gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000347},  !- Inlet Port
   {00000000-0000-0000-0017-000000000348};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000117},  !- Handle
-  Core_top WUC 0.95gpm 140F Outlet Water Node, !- Name
+  Core_top WUC 0.9456gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000349},  !- Inlet Port
   {00000000-0000-0000-0017-000000000350};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000118},  !- Handle
-  DataCenter_basement_ZN_6 WUC 0.3gpm 140F Inlet Water Node, !- Name
+  DataCenter_basement_ZN_6 WUC 0.2969gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000351},  !- Inlet Port
   {00000000-0000-0000-0017-000000000352};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000119},  !- Handle
-  DataCenter_basement_ZN_6 WUC 0.3gpm 140F Outlet Water Node, !- Name
+  DataCenter_basement_ZN_6 WUC 0.2969gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000353},  !- Inlet Port
   {00000000-0000-0000-0017-000000000354};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000120},  !- Handle
-  DataCenter_bot_ZN_6 WUC 0.01gpm 140F Inlet Water Node, !- Name
+  DataCenter_bot_ZN_6 WUC 0.0137gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000355},  !- Inlet Port
   {00000000-0000-0000-0017-000000000356};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000121},  !- Handle
-  DataCenter_bot_ZN_6 WUC 0.01gpm 140F Outlet Water Node, !- Name
+  DataCenter_bot_ZN_6 WUC 0.0137gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000357},  !- Inlet Port
   {00000000-0000-0000-0017-000000000358};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000122},  !- Handle
-  DataCenter_mid_ZN_6 WUC 0.01gpm 140F Inlet Water Node, !- Name
+  DataCenter_mid_ZN_6 WUC 0.0137gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000359},  !- Inlet Port
   {00000000-0000-0000-0017-000000000360};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000123},  !- Handle
-  DataCenter_mid_ZN_6 WUC 0.01gpm 140F Outlet Water Node, !- Name
+  DataCenter_mid_ZN_6 WUC 0.0137gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000361},  !- Inlet Port
   {00000000-0000-0000-0017-000000000362};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000124},  !- Handle
-  DataCenter_top_ZN_6 WUC 0.01gpm 140F Inlet Water Node, !- Name
+  DataCenter_top_ZN_6 WUC 0.0137gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000363},  !- Inlet Port
   {00000000-0000-0000-0017-000000000364};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000125},  !- Handle
-  DataCenter_top_ZN_6 WUC 0.01gpm 140F Outlet Water Node, !- Name
+  DataCenter_top_ZN_6 WUC 0.0137gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000365},  !- Inlet Port
   {00000000-0000-0000-0017-000000000366};  !- Outlet Port
 
@@ -7675,145 +7675,145 @@ OS:Node,
 
 OS:Node,
   {00000000-0000-0000-0050-000000000131},  !- Handle
-  Perimeter_bot_ZN_1 WUC 0.12gpm 140F Inlet Water Node, !- Name
+  Perimeter_bot_ZN_1 WUC 0.1187gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000367},  !- Inlet Port
   {00000000-0000-0000-0017-000000000368};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000132},  !- Handle
-  Perimeter_bot_ZN_1 WUC 0.12gpm 140F Outlet Water Node, !- Name
+  Perimeter_bot_ZN_1 WUC 0.1187gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000369},  !- Inlet Port
   {00000000-0000-0000-0017-000000000370};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000133},  !- Handle
-  Perimeter_bot_ZN_2 WUC 0.08gpm 140F Inlet Water Node, !- Name
+  Perimeter_bot_ZN_2 WUC 0.0765gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000371},  !- Inlet Port
   {00000000-0000-0000-0017-000000000372};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000134},  !- Handle
-  Perimeter_bot_ZN_2 WUC 0.08gpm 140F Outlet Water Node, !- Name
+  Perimeter_bot_ZN_2 WUC 0.0765gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000373},  !- Inlet Port
   {00000000-0000-0000-0017-000000000374};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000135},  !- Handle
-  Perimeter_bot_ZN_3 WUC 0.12gpm 140F Inlet Water Node, !- Name
+  Perimeter_bot_ZN_3 WUC 0.1187gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000375},  !- Inlet Port
   {00000000-0000-0000-0017-000000000376};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000136},  !- Handle
-  Perimeter_bot_ZN_3 WUC 0.12gpm 140F Outlet Water Node, !- Name
+  Perimeter_bot_ZN_3 WUC 0.1187gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000377},  !- Inlet Port
   {00000000-0000-0000-0017-000000000378};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000137},  !- Handle
-  Perimeter_bot_ZN_4 WUC 0.08gpm 140F Inlet Water Node, !- Name
+  Perimeter_bot_ZN_4 WUC 0.0765gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000379},  !- Inlet Port
   {00000000-0000-0000-0017-000000000380};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000138},  !- Handle
-  Perimeter_bot_ZN_4 WUC 0.08gpm 140F Outlet Water Node, !- Name
+  Perimeter_bot_ZN_4 WUC 0.0765gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000381},  !- Inlet Port
   {00000000-0000-0000-0017-000000000382};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000139},  !- Handle
-  Perimeter_mid_ZN_1 WUC 0.12gpm 140F Inlet Water Node, !- Name
+  Perimeter_mid_ZN_1 WUC 0.1187gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000383},  !- Inlet Port
   {00000000-0000-0000-0017-000000000384};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000140},  !- Handle
-  Perimeter_mid_ZN_1 WUC 0.12gpm 140F Outlet Water Node, !- Name
+  Perimeter_mid_ZN_1 WUC 0.1187gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000385},  !- Inlet Port
   {00000000-0000-0000-0017-000000000386};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000141},  !- Handle
-  Perimeter_mid_ZN_2 WUC 0.08gpm 140F Inlet Water Node, !- Name
+  Perimeter_mid_ZN_2 WUC 0.0765gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000387},  !- Inlet Port
   {00000000-0000-0000-0017-000000000388};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000142},  !- Handle
-  Perimeter_mid_ZN_2 WUC 0.08gpm 140F Outlet Water Node, !- Name
+  Perimeter_mid_ZN_2 WUC 0.0765gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000389},  !- Inlet Port
   {00000000-0000-0000-0017-000000000390};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000143},  !- Handle
-  Perimeter_mid_ZN_3 WUC 0.12gpm 140F Inlet Water Node, !- Name
+  Perimeter_mid_ZN_3 WUC 0.1187gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000391},  !- Inlet Port
   {00000000-0000-0000-0017-000000000392};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000144},  !- Handle
-  Perimeter_mid_ZN_3 WUC 0.12gpm 140F Outlet Water Node, !- Name
+  Perimeter_mid_ZN_3 WUC 0.1187gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000393},  !- Inlet Port
   {00000000-0000-0000-0017-000000000394};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000145},  !- Handle
-  Perimeter_mid_ZN_4 WUC 0.08gpm 140F Inlet Water Node, !- Name
+  Perimeter_mid_ZN_4 WUC 0.0765gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000395},  !- Inlet Port
   {00000000-0000-0000-0017-000000000396};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000146},  !- Handle
-  Perimeter_mid_ZN_4 WUC 0.08gpm 140F Outlet Water Node, !- Name
+  Perimeter_mid_ZN_4 WUC 0.0765gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000397},  !- Inlet Port
   {00000000-0000-0000-0017-000000000398};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000147},  !- Handle
-  Perimeter_top_ZN_1 WUC 0.12gpm 140F Inlet Water Node, !- Name
+  Perimeter_top_ZN_1 WUC 0.1187gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000399},  !- Inlet Port
   {00000000-0000-0000-0017-000000000400};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000148},  !- Handle
-  Perimeter_top_ZN_1 WUC 0.12gpm 140F Outlet Water Node, !- Name
+  Perimeter_top_ZN_1 WUC 0.1187gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000401},  !- Inlet Port
   {00000000-0000-0000-0017-000000000402};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000149},  !- Handle
-  Perimeter_top_ZN_2 WUC 0.08gpm 140F Inlet Water Node, !- Name
+  Perimeter_top_ZN_2 WUC 0.0765gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000403},  !- Inlet Port
   {00000000-0000-0000-0017-000000000404};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000150},  !- Handle
-  Perimeter_top_ZN_2 WUC 0.08gpm 140F Outlet Water Node, !- Name
+  Perimeter_top_ZN_2 WUC 0.0765gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000405},  !- Inlet Port
   {00000000-0000-0000-0017-000000000406};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000151},  !- Handle
-  Perimeter_top_ZN_3 WUC 0.12gpm 140F Inlet Water Node, !- Name
+  Perimeter_top_ZN_3 WUC 0.1187gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000407},  !- Inlet Port
   {00000000-0000-0000-0017-000000000408};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000152},  !- Handle
-  Perimeter_top_ZN_3 WUC 0.12gpm 140F Outlet Water Node, !- Name
+  Perimeter_top_ZN_3 WUC 0.1187gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000409},  !- Inlet Port
   {00000000-0000-0000-0017-000000000410};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000153},  !- Handle
-  Perimeter_top_ZN_4 WUC 0.08gpm 140F Inlet Water Node, !- Name
+  Perimeter_top_ZN_4 WUC 0.0765gpm 140F Inlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000411},  !- Inlet Port
   {00000000-0000-0000-0017-000000000412};  !- Outlet Port
 
 OS:Node,
   {00000000-0000-0000-0050-000000000154},  !- Handle
-  Perimeter_top_ZN_4 WUC 0.08gpm 140F Outlet Water Node, !- Name
+  Perimeter_top_ZN_4 WUC 0.0765gpm 140F Outlet Water Node, !- Name
   {00000000-0000-0000-0017-000000000413},  !- Inlet Port
   {00000000-0000-0000-0017-000000000414};  !- Outlet Port
 
@@ -9833,7 +9833,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0061-000000000048},  !- Handle
   Schedule Day 3,                          !- Name
-  {00000000-0000-0000-0064-000000000008},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0064-000000000006},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -10097,7 +10097,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0061-000000000062},  !- Handle
   satCHW Temp 1,                           !- Name
-  {00000000-0000-0000-0064-000000000008},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0064-000000000006},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -10409,7 +10409,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0061-000000000066},  !- Handle
   sunCHW Temp 1,                           !- Name
-  {00000000-0000-0000-0064-000000000008},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0064-000000000006},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -10886,7 +10886,7 @@ OS:Schedule:Day,
 OS:Schedule:Day,
   {00000000-0000-0000-0061-000000000085},  !- Handle
   wkdCHW Temp 1,                           !- Name
-  {00000000-0000-0000-0064-000000000008},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0064-000000000006},  !- Schedule Type Limits Name
   ,                                        !- Interpolate to Timestep
   1,                                       !- Hour 1
   0,                                       !- Minute 1
@@ -11926,7 +11926,7 @@ OS:Schedule:Ruleset,
 OS:Schedule:Ruleset,
   {00000000-0000-0000-0063-000000000002},  !- Handle
   CHW Temp,                                !- Name
-  {00000000-0000-0000-0064-000000000008},  !- Schedule Type Limits Name
+  {00000000-0000-0000-0064-000000000006},  !- Schedule Type Limits Name
   {00000000-0000-0000-0061-000000000048};  !- Default Day Schedule Name
 
 OS:Schedule:Ruleset,
@@ -18110,7 +18110,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000005},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 1 ERV_LatCoolEff 1, !- Name
-  {00000000-0000-0000-0049-000000000024},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000032},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -18125,7 +18125,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000006},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 1 ERV_LatHeatEff 1, !- Name
-  {00000000-0000-0000-0049-000000000022},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000030},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -18140,7 +18140,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000007},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 1 ERV_SensCoolEff 1, !- Name
-  {00000000-0000-0000-0049-000000000023},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000031},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -18155,7 +18155,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000008},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 1 ERV_SensHeatEff 1, !- Name
-  {00000000-0000-0000-0049-000000000021},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000029},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -18170,7 +18170,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000009},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 2 ERV_LatCoolEff 1, !- Name
-  {00000000-0000-0000-0049-000000000032},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000024},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -18185,7 +18185,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000010},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 2 ERV_LatHeatEff 1, !- Name
-  {00000000-0000-0000-0049-000000000030},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000022},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -18200,7 +18200,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000011},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 2 ERV_SensCoolEff 1, !- Name
-  {00000000-0000-0000-0049-000000000031},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000023},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -18215,7 +18215,7 @@ OS:Table:Lookup,
 OS:Table:Lookup,
   {00000000-0000-0000-0091-000000000012},  !- Handle
   sys_6|mixed|shr>none|sh>c-e|sc>c-chw|ssf>vv|zh>b-e|zc>none|srf>vv| 2 ERV_SensHeatEff 1, !- Name
-  {00000000-0000-0000-0049-000000000029},  !- Independent Variable List Name
+  {00000000-0000-0000-0049-000000000021},  !- Independent Variable List Name
   DivisorOnly,                             !- Normalization Method
   0.5,                                     !- Normalization Divisor
   0,                                       !- Minimum Output {BasedOnField A5}
@@ -19351,7 +19351,7 @@ OS:WaterHeater:Sizing,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000001},  !- Handle
-  Core_bottom WUC 0.95gpm 140F,            !- Name
+  Core_bottom WUC 0.9456gpm 140F,          !- Name
   {00000000-0000-0000-0017-000000000340},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000341},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19365,7 +19365,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000002},  !- Handle
-  Core_mid WUC 0.95gpm 140F,               !- Name
+  Core_mid WUC 0.9456gpm 140F,             !- Name
   {00000000-0000-0000-0017-000000000344},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000345},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19379,7 +19379,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000003},  !- Handle
-  Core_top WUC 0.95gpm 140F,               !- Name
+  Core_top WUC 0.9456gpm 140F,             !- Name
   {00000000-0000-0000-0017-000000000348},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000349},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19393,7 +19393,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000004},  !- Handle
-  DataCenter_basement_ZN_6 WUC 0.3gpm 140F, !- Name
+  DataCenter_basement_ZN_6 WUC 0.2969gpm 140F, !- Name
   {00000000-0000-0000-0017-000000000352},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000353},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19407,7 +19407,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000005},  !- Handle
-  DataCenter_bot_ZN_6 WUC 0.01gpm 140F,    !- Name
+  DataCenter_bot_ZN_6 WUC 0.0137gpm 140F,  !- Name
   {00000000-0000-0000-0017-000000000356},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000357},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19421,7 +19421,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000006},  !- Handle
-  DataCenter_mid_ZN_6 WUC 0.01gpm 140F,    !- Name
+  DataCenter_mid_ZN_6 WUC 0.0137gpm 140F,  !- Name
   {00000000-0000-0000-0017-000000000360},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000361},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19435,7 +19435,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000007},  !- Handle
-  DataCenter_top_ZN_6 WUC 0.01gpm 140F,    !- Name
+  DataCenter_top_ZN_6 WUC 0.0137gpm 140F,  !- Name
   {00000000-0000-0000-0017-000000000364},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000365},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19449,7 +19449,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000008},  !- Handle
-  Perimeter_bot_ZN_1 WUC 0.12gpm 140F,     !- Name
+  Perimeter_bot_ZN_1 WUC 0.1187gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000368},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000369},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19463,7 +19463,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000009},  !- Handle
-  Perimeter_bot_ZN_2 WUC 0.08gpm 140F,     !- Name
+  Perimeter_bot_ZN_2 WUC 0.0765gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000372},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000373},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19477,7 +19477,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000010},  !- Handle
-  Perimeter_bot_ZN_3 WUC 0.12gpm 140F,     !- Name
+  Perimeter_bot_ZN_3 WUC 0.1187gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000376},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000377},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19491,7 +19491,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000011},  !- Handle
-  Perimeter_bot_ZN_4 WUC 0.08gpm 140F,     !- Name
+  Perimeter_bot_ZN_4 WUC 0.0765gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000380},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000381},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19505,7 +19505,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000012},  !- Handle
-  Perimeter_mid_ZN_1 WUC 0.12gpm 140F,     !- Name
+  Perimeter_mid_ZN_1 WUC 0.1187gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000384},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000385},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19519,7 +19519,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000013},  !- Handle
-  Perimeter_mid_ZN_2 WUC 0.08gpm 140F,     !- Name
+  Perimeter_mid_ZN_2 WUC 0.0765gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000388},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000389},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19533,7 +19533,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000014},  !- Handle
-  Perimeter_mid_ZN_3 WUC 0.12gpm 140F,     !- Name
+  Perimeter_mid_ZN_3 WUC 0.1187gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000392},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000393},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19547,7 +19547,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000015},  !- Handle
-  Perimeter_mid_ZN_4 WUC 0.08gpm 140F,     !- Name
+  Perimeter_mid_ZN_4 WUC 0.0765gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000396},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000397},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19561,7 +19561,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000016},  !- Handle
-  Perimeter_top_ZN_1 WUC 0.12gpm 140F,     !- Name
+  Perimeter_top_ZN_1 WUC 0.1187gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000400},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000401},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19575,7 +19575,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000017},  !- Handle
-  Perimeter_top_ZN_2 WUC 0.08gpm 140F,     !- Name
+  Perimeter_top_ZN_2 WUC 0.0765gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000404},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000405},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19589,7 +19589,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000018},  !- Handle
-  Perimeter_top_ZN_3 WUC 0.12gpm 140F,     !- Name
+  Perimeter_top_ZN_3 WUC 0.1187gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000408},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000409},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19603,7 +19603,7 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Connections,
   {00000000-0000-0000-0098-000000000019},  !- Handle
-  Perimeter_top_ZN_4 WUC 0.08gpm 140F,     !- Name
+  Perimeter_top_ZN_4 WUC 0.0765gpm 140F,   !- Name
   {00000000-0000-0000-0017-000000000412},  !- Inlet Node Name
   {00000000-0000-0000-0017-000000000413},  !- Outlet Node Name
   ,                                        !- Supply Water Storage Tank Name
@@ -19617,133 +19617,133 @@ OS:WaterUse:Connections,
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000001},  !- Handle
-  Core_bottom Service Water Use 0.95gpm 140F, !- Name
+  Core_bottom Service Water Use 0.9456gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000001},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000002},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000002},  !- Handle
-  Core_mid Service Water Use 0.95gpm 140F, !- Name
+  Core_mid Service Water Use 0.9456gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000002},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000003},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000003},  !- Handle
-  Core_top Service Water Use 0.95gpm 140F, !- Name
+  Core_top Service Water Use 0.9456gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000003},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000004},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000004},  !- Handle
-  DataCenter_basement_ZN_6 Service Water Use 0.3gpm 140F, !- Name
+  DataCenter_basement_ZN_6 Service Water Use 0.2969gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000004},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000005},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000005},  !- Handle
-  DataCenter_bot_ZN_6 Service Water Use 0.01gpm 140F, !- Name
+  DataCenter_bot_ZN_6 Service Water Use 0.0137gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000005},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000006},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000006},  !- Handle
-  DataCenter_mid_ZN_6 Service Water Use 0.01gpm 140F, !- Name
+  DataCenter_mid_ZN_6 Service Water Use 0.0137gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000006},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000007},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000007},  !- Handle
-  DataCenter_top_ZN_6 Service Water Use 0.01gpm 140F, !- Name
+  DataCenter_top_ZN_6 Service Water Use 0.0137gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000007},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000008},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000008},  !- Handle
-  Perimeter_bot_ZN_1 Service Water Use 0.12gpm 140F, !- Name
+  Perimeter_bot_ZN_1 Service Water Use 0.1187gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000008},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000011},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000009},  !- Handle
-  Perimeter_bot_ZN_2 Service Water Use 0.08gpm 140F, !- Name
+  Perimeter_bot_ZN_2 Service Water Use 0.0765gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000009},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000012},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000010},  !- Handle
-  Perimeter_bot_ZN_3 Service Water Use 0.12gpm 140F, !- Name
+  Perimeter_bot_ZN_3 Service Water Use 0.1187gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000010},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000013},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000011},  !- Handle
-  Perimeter_bot_ZN_4 Service Water Use 0.08gpm 140F, !- Name
+  Perimeter_bot_ZN_4 Service Water Use 0.0765gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000011},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000014},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000012},  !- Handle
-  Perimeter_mid_ZN_1 Service Water Use 0.12gpm 140F, !- Name
+  Perimeter_mid_ZN_1 Service Water Use 0.1187gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000012},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000015},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000013},  !- Handle
-  Perimeter_mid_ZN_2 Service Water Use 0.08gpm 140F, !- Name
+  Perimeter_mid_ZN_2 Service Water Use 0.0765gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000013},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000016},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000014},  !- Handle
-  Perimeter_mid_ZN_3 Service Water Use 0.12gpm 140F, !- Name
+  Perimeter_mid_ZN_3 Service Water Use 0.1187gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000014},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000017},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000015},  !- Handle
-  Perimeter_mid_ZN_4 Service Water Use 0.08gpm 140F, !- Name
+  Perimeter_mid_ZN_4 Service Water Use 0.0765gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000015},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000018},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000016},  !- Handle
-  Perimeter_top_ZN_1 Service Water Use 0.12gpm 140F, !- Name
+  Perimeter_top_ZN_1 Service Water Use 0.1187gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000016},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000019},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000017},  !- Handle
-  Perimeter_top_ZN_2 Service Water Use 0.08gpm 140F, !- Name
+  Perimeter_top_ZN_2 Service Water Use 0.0765gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000017},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000020},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000018},  !- Handle
-  Perimeter_top_ZN_3 Service Water Use 0.12gpm 140F, !- Name
+  Perimeter_top_ZN_3 Service Water Use 0.1187gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000018},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000021},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment,
   {00000000-0000-0000-0099-000000000019},  !- Handle
-  Perimeter_top_ZN_4 Service Water Use 0.08gpm 140F, !- Name
+  Perimeter_top_ZN_4 Service Water Use 0.0765gpm 140F, !- Name
   {00000000-0000-0000-0100-000000000019},  !- Water Use Equipment Definition Name
   {00000000-0000-0000-0080-000000000022},  !- Space Name
   {00000000-0000-0000-0063-000000000013};  !- Flow Rate Fraction Schedule Name
